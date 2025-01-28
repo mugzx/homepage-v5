@@ -2,72 +2,45 @@
 import type { CardProps } from '~/components/partial/Card.vue'
 
 useHead({ title: '站点' })
-definePageMeta({ headerText: '一些网站' })
+definePageMeta({ headerText: '一些分享' })
 
 const toolSites: Array<CardProps> = [
     {
-        name: 'CO导航',
-        nameAlt: 'xupt-nav',
+        name: 'DeepSeek | 深度求索',
+        nameAlt: 'deepseek',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://cooo.site' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xupt-wiki/xupt-nav' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.deepseek.com' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/deepseek-ai' },
         ],
-        desc: '为西安邮电大学学生提供网址导航服务，于2023年2月7日开始运营，是“更适合西邮宝宝体质的网址导航”。',
+        desc: '一款国产Ai,感觉蛮好用的,喜欢它的开源精神和手机可用的网页端',
     },
     {
-        name: '考试时钟',
-        nameAlt: 'ExamClock',
+        name: 'Thunderbird-邮箱APP',
+        nameAlt: 'Thunderbird',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://exam.thisis.host' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/L33Z22L11/ExamClock' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.thunderbird.net/zh-CN' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/thunderbird' },
         ],
-        desc: '用于宝鸡中学校内考试，可以在大屏上展示科目信息、起止时间、考试进度，支持切换年级、文理科，于2021年4月1日上线并投入使用。',
+        desc: '在b站上看到的一款app,开源无广告,能一站式打理邮箱账号,颜值还高',
     },
     {
-        name: '西邮&thinsp;Wiki',
-        nameAlt: 'xupt-wiki',
+        name: 'PiliPlus-b站第三方APP',
+        nameAlt: 'PiliPlus',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://wiki.cooo.site' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xupt-wiki/xupt-wiki' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
         ],
-        desc: '西安邮电大学第三方公益校园生活百科，于2024年6月30立项。本人于2024年7月30日使用 VitePress 搭建，持续更新中。',
-    },
-    {
-        name: '西邮&thinsp;Linux&thinsp;兴趣小组<br>培养计划',
-        nameAlt: 'Plan',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://plan.xiyoulinux.com' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xiyou-linuxer/Plan' },
-        ],
-        desc: '西邮&thinsp;Linux&thinsp;兴趣小组的培养计划，于2021年11月4日开源。本人于2024年3月20日使用 MkDocs 为此 Plan 构建网站。',
-    },
-    {
-        name: '公众号 MD 编辑器',
-        nameAlt: 'md4mp',
-        badges: ['镜像'],
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://md.cooo.site' },
-        ],
-        desc: '好用的 Markdown 转微信公众号工具。<ZLink to="https://doocs.github.io/md/">源站</ZLink>加载速度较慢，本人于2024年6月18日重新使用 Cloudflare Pages 部署。',
+        desc: '相比较原版臃肿不堪的b站更加简洁好看,功能也都还在不断的完善中...',
     },
 ]
 
 const orgSites: Array<CardProps> = [
     {
-        name: '西邮&thinsp;Linux&thinsp;兴趣小组',
-        nameAlt: 'Xiyou Linux Group',
+        name: '火蝾螈服务器',
+        nameAlt: 'Torch Server',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://xiyoulinux.com' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://blog.chengai77a6b.top/archives/4' },
         ],
-        desc: '西安邮电大学计算机学院2006年9月建立的一个兴趣小组。本人于2022年10月22日成为其中一员，于2024年3月16日使用 VitePress 重建官网。',
-    },
-    {
-        name: '野生技协',
-        nameAlt: 'TECHYES',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://thisis.host' },
-        ],
-        desc: '宝鸡中学校内的一个自发性的技术协助组织、无门槛的技术交流群，旨在信息分享、交流与公开，于2020年7月20日对外开放，多个 <ZLink to="https://thisis.host/site">二级域名</ZLink>为校友提供项目部署服务。官网于2021年8月8日建立，并于2024年2月3日升级为博客。',
+        desc: '由火蝾螈社团和成员们共同运行的服务器,目前已经更新了三代了。腐竹也已经更新了三代(bushi💦,感兴趣的可以加入哦,我们欢迎大家前来游玩',
     },
     {
         name: '邮立方',
@@ -89,9 +62,9 @@ const orgSites: Array<CardProps> = [
 </script>
 
 <template>
-    <ZTitle>工具类站点</ZTitle>
+    <ZTitle>好用推荐</ZTitle>
     <ZCardList :data-list="toolSites" />
-    <ZTitle>组织门户</ZTitle>
+    <ZTitle>MC广播站</ZTitle>
     <ZCardList :data-list="orgSites" />
 </template>
 
