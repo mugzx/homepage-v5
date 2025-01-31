@@ -5,8 +5,8 @@ export default defineAppConfig({
     ...homepageConfig,
 
     footer: {
-        copyright: `© ${new Date().getFullYear()} 木姜丝_Mugzx`,
-        message: 'aka mugzx',
+        copyright: `© ${new Date().getFullYear()} Mugzx`,
+        message: 'aka Mugzx',
     },
 
     nav: <Nav>[
@@ -25,7 +25,7 @@ export default defineAppConfig({
         {
             title: '社交',
             items: [
-                { icon: 'basil:qq-outline', text: '群: 938973313', url: 'https://qm.qq.com/q/lbtoWDPpZu', external: true },
+                { icon: 'basil:qq-outline', text: 'MC交流电台', url: 'https://qm.qq.com/q/lbtoWDPpZu', external: true },
                 { icon: 'ph:github-logo-duotone', text: 'Github', url: 'https://github.com/mugzx', external: true },
                 { icon: 'ph:telegram-logo-duotone', text: 'Telegram', url: 'https://t.me/mugzx', external: true },
             ],
