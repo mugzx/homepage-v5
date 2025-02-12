@@ -37,7 +37,11 @@ const appConfig = useAppConfig()
         <ZField label="近期活动">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-              2025 年 1 月使用纸鹿大佬的所设计的<ZLink to="https://github.com/L33Z22L11/blog-v3">博客主题</ZLink>重建了<ZLink to="https://blog.zhilu.cyou/">博客</ZLink>，还在不断修改中...
+              2 月开学前基本完成了博客与主页的修改，然后增设了一些功能站点
+            </p>
+            <p>
+                <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
+              2025 年 1 月重建了<ZLink to="https://blog.mugzx.top">博客</ZLink>，还在不断修改中...
             </p>
         </ZField>
         <ZField label="一些声明">

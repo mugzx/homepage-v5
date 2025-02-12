@@ -2,9 +2,9 @@
 
 const author = {
     name: 'Mugzx',
-    avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
+    avatar: 'https://mumu.s3.bitiful.net/me.avif',
     email: 'lunar@mugzx.top',
-    homepage: 'https://home.mugzx.top',
+    homepage: 'https://www.mugzx.top',
 }
 
 export default {
@@ -15,6 +15,6 @@ export default {
     language: 'zh-CN',
     timezone: 'Asia/Shanghai',
     favicon: '/icon.png',
-    url: 'https://home.mugzx.top',
+    url: 'https://www.mugzx.top',
     blogAtom: 'https://blog.mugzx.top/atom.xml',
 }

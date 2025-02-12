@@ -6,30 +6,39 @@ definePageMeta({ headerText: '一些分享' })
 
 const toolSites: Array<CardProps> = [
     {
-        name: 'DeepSeek | 深度求索',
+        name: 'DeepSeek',
         nameAlt: 'deepseek',
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.deepseek.com' },
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/deepseek-ai' },
         ],
-        desc: '一款国产Ai,感觉蛮好用的,喜欢它的开源精神和手机可用的网页端',
+        desc: '一款国产Ai,感觉蛮好用的，喜欢它的开源精神和手机可用的网页端',
     },
     {
-        name: 'Thunderbird-邮箱APP',
+        name: 'Thunderbird',
         nameAlt: 'Thunderbird',
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.thunderbird.net/zh-CN' },
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/thunderbird' },
         ],
-        desc: '在b站上看到的一款app,开源无广告,能一站式打理邮箱账号,颜值还高',
+        desc: '在b站上看到的一款app，开源无广告，能一站式打理邮箱账号，颜值还高',
     },
     {
-        name: 'PiliPlus-b站第三方APP',
+        name: 'PiliPlus',
         nameAlt: 'PiliPlus',
         buttons: [
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
         ],
-        desc: '相比较原版臃肿不堪的b站更加简洁好看,功能也都还在不断的完善中...',
+        desc: '相比较原版臃肿不堪的b站更加简洁好看，功能也都还在不断的完善中...',
+    },
+    {
+        name: '中文网字计划',
+        nameAlt: 'chinese-font',
+        buttons: [
+           { icon: 'ph:planet-duotone', text: '访问', to: 'https://chinese-font.netlify.app/zh-cn' },
+           { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/KonghaYao/chinese-free-web-font-storage' },
+        ],
+        desc: '免费的中文字体公益 CDN 服务，让中文字体在互联网世界起飞。来自枫落丰源的推荐~',
     },
 ]
 
@@ -57,6 +66,14 @@ const orgSites: Array<CardProps> = [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://btr.thisis.host/' },
         ],
         desc: '宝鸡中学校内的 Minecraft 爱好群体，由 <ZLink icon="ph:github-logo-duotone" to="https://github.com/guuguai/">古古怪怪GuuGuai </ZLink> 于2020年7月17日建立。帮助文档网站于2022年6月12日建立，并于2024年2月21日迁移。',
+    },
+    {
+        name: '相侵相碍异家人',
+        nameAlt: 'Alien Family Hub',
+        buttons: [
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://alienfamily.us.kg/' },
+        ],
+        desc: 'Hexo博客交流群“糖果屋”的群友组织的Minecraft服务器，于2024年7月18日建群。2025年2月2日创建了成员列表页面。',
     },
 ]
 </script>
