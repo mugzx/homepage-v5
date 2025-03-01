@@ -12,7 +12,7 @@ export default defineAppConfig({
         message: 'aka Mugzx',
     },
 
-    nav: <Nav>[
+    nav: [
         {
             title: '',
             items: [
@@ -33,7 +33,7 @@ export default defineAppConfig({
                 { icon: 'ph:telegram-logo-duotone', text: 'Telegram', url: 'https://t.me/mugzx', external: true },
             ],
         },
-    ],
+    ] satisfies Nav,
 
     themes: {
         light: {
