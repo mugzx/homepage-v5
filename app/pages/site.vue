@@ -21,7 +21,7 @@ const toolSites: Array<CardProps> = [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.thunderbird.net/zh-CN' },
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/thunderbird' },
         ],
-        desc: '在b站上看到的一款APP，开源无广告，手机电脑均可用，支持一站式打理邮箱账号，颜值还高',
+        desc: '手机电脑均可用，支持一站式打理邮箱账号的一款邮箱APP (Material You 风格)',
     },
     {
         name: 'PiliPlus',
@@ -29,7 +29,7 @@ const toolSites: Array<CardProps> = [
         buttons: [
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
         ],
-        desc: '相比较原版臃肿不堪的b站更加简洁好看，功能也都还在不断的完善中...',
+        desc: '相比较原版的b站优化与拓展了很多功能，简洁好看 (Material You 风格)',
     },
     {
         name: 'Stratum',
@@ -38,7 +38,7 @@ const toolSites: Array<CardProps> = [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://stratumauth.com' },
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/stratumauth/app' },
         ],
-        desc: '在经历小黄鸭木马病毒风波之后找到的一款2FA认证APP(依旧是和 Thunderbird、PiliPlus 一样的 Material You 风格👍)',
+        desc: '在经历小黄鸭木马病毒风波之后找到的一款2FA认证APP(依旧是 Material You 风格👍)',
     },
     {
         name: '中文网字计划',
