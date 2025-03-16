@@ -18,10 +18,10 @@ const appConfig = useAppConfig()
                 {{ appConfig.subtitle }}
             </p>
             <div>
-                <ZButton icon="ph:files-duotone" to="https://blog.zhilu.cyou/" primary>
+                <ZButton icon="ph:files-duotone" to="https://blog.mugzx.top" primary>
                     博客
                 </ZButton>
-                <ZButton icon="ph:github-logo-duotone" to="https://github.com/L33Z22L11">
+                <ZButton icon="ph:github-logo-duotone" to="https://github.com/mugzx">
                     GitHub
                 </ZButton>
             </div>
@@ -30,49 +30,23 @@ const appConfig = useAppConfig()
         <ZField label="介绍">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-                <ZLink to="https://github.com/xiyou-linuxer">西邮&thinsp;Linux&thinsp;兴趣小组</ZLink>成员，Windows 11 和 Arch Linux 用户。
+                欢迎来到我的主页!
             </p>
         </ZField>
 
         <ZField label="近期活动">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-                7 月完善<ZLink to="https://wiki.cooo.site/">西邮Wiki</ZLink>，8 月使用 Nuxt Content 重构了<ZLink to="https://blog.zhilu.cyou/">个人博客</ZLink>，近期持续开发中。
+              2~3月增设了一些功能站点，并且开始重筑项目,优化推送
+            </p>
+            <p>
+                <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
+              2025 年 1 月重建了<ZLink to="https://blog.mugzx.top">博客</ZLink>，还在不断修改中...
             </p>
         </ZField>
-
-        <ZField label="关于主页">
+        <ZField label="一些声明">
             <p>
-                自2024年6月1日开始重构，目前缓慢修缮中。
-            </p>
-            <p>
-                感谢
-                <ZBadge link="https://github.com/KazariEX">
-                    KazariEX
-                </ZBadge> <ZBadge link="https://github.com/isYangs">
-                    isYangs
-                </ZBadge>
-                等众多朋友为个人主页提供帮助。<br>
-                <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-                主页开源在<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ph:github-logo-duotone">L33Z22L11/homepage-v5</ZLink>上。
-            </p>
-            <p>
-                欢迎使用、参考样式：<br>
-                <ZBadge rel="nofollow" img="https://image.m-c.top/?/images/2024/07/21/iyt3mhQCDe/b_a3f6e95501bcc4ce64c19c63a1211bcd.png" link="https://oio.mckfs.com/">
-                    Oiolosse MC服
-                </ZBadge> <ZBadge rel="nofollow" img="https://bu.dusays.com/2024/07/13/66929d307adb9.png" link="https://henrywhu.cn/">
-                    Henry Moreau
-                </ZBadge> <ZBadge rel="nofollow" img="https://api-space.tnxg.top/avatar?s=qq" link="https://tnxg.top/">
-                    天翔TNXG
-                </ZBadge> <ZBadge rel="nofollow" img="https://ykc.im/icon.png" link="https://ykc.im/">
-                    York Chou
-                </ZBadge> <ZBadge rel="nofollow" img="https://www.xxfer.cn/icon.png" link="https://www.xxfer.cn/">
-                    小李同学
-                </ZBadge> <ZBadge rel="nofollow" img="https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=2" link="https://www.xlenco.top/">
-                    Xlenco
-                </ZBadge> <ZBadge rel="nofollow" img="https://www.mugzx.top/icon.png" link="https://www.mugzx.top/">
-                    Mugzx
-                </ZBadge>
+            <ZLink to="https://github.com/L33Z22L11/homepage-v5">Nuxt 开源个人主页</ZLink> <ZLink to="https://icp.gov.moe/?keyword=20258800">萌ICP备20258800号</ZLink>
             </p>
         </ZField>
     </div>

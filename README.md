@@ -1,6 +1,6 @@
-# 纸鹿的个人主页
+# Mugzx的主页
 
-这是我的第五版个人主页，基于 Nuxt.js，与 [@KazariEX](https://github.com/KazariEX) 一起构建。
+基于 Nuxt.js 开发，由 [@L33Z22L11](https://github.com/L33Z22L11) 与 [@KazariEX](https://github.com/KazariEX) 一起构建。
 
 ## 快速开始
 
