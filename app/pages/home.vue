@@ -46,7 +46,7 @@ const appConfig = useAppConfig()
         </ZField>
         <ZField label="一些声明">
             <p>
-            <ZLink to="https://github.com/L33Z22L11/homepage-v5">Nuxt 开源个人主页</ZLink> <ZLink to="https://icp.gov.moe/?keyword=20258800">萌ICP备20258800号</ZLink>
+            <ZLink to="https://github.com/L33Z22L11/homepage-v5">Nuxt.js 开源个人主页</ZLink> <ZLink to="https://icp.gov.moe/?keyword=20258800">萌ICP备20258800号</ZLink>
             </p>
         </ZField>
     </div>
