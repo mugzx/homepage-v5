@@ -30,14 +30,14 @@ const appConfig = useAppConfig()
         <ZField label="介绍">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-                欢迎来到我的主页!
+                欢迎来到我的主页！
             </p>
         </ZField>
 
         <ZField label="近期活动">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-              2~3月增设了一些功能站点，并且开始重筑项目,优化推送
+              2~3月增设了一些功能站点，并且开始重筑项目，优化推送
             </p>
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->

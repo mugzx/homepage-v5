@@ -25,7 +25,7 @@ const articles = computed(() => data.value.slice(0, 11))
         <ZArticle v-for="article in articles" :key="article.id" v-bind="article" />
     </div>
     <div class="article-more">
-        <ZRawLink to="https://blog.mugzx.top/">
+        <ZRawLink to="https://blog.mugzx.top">
             <Icon name="ph:navigation-arrow-duotone" />
             <span>访问</span>
         </ZRawLink>

@@ -12,7 +12,7 @@ const toolSites: Array<CardProps> = [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.deepseek.com' },
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/deepseek-ai' },
         ],
-        desc: '一款国产Ai,感觉蛮好用的，喜欢它的开源精神和手机可用的网页端',
+        desc: '一款国产Ai，感觉蛮好用的，喜欢它的开源精神和手机可用的网页端',
     },
     {
         name: 'Thunderbird',
@@ -58,7 +58,7 @@ const orgSites: Array<CardProps> = [
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://blog.chengai77a6b.top/archives/4' },
         ],
-        desc: '由火蝾螈社团和成员们共同运行的服务器,目前已经更新了三代了。腐竹也已经更新了三代(bushi💦,感兴趣的可以加入哦,我们欢迎大家前来游玩',
+        desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。腐竹也已经更新了三代(bushi💦，感兴趣的可以加入哦，我们欢迎大家前来游玩',
     },
     {
         name: '邮立方',
