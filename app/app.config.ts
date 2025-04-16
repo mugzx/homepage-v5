@@ -30,7 +30,6 @@ export default defineAppConfig({
             items: [
                 { icon: 'basil:qq-outline', text: 'MC交流电台', url: 'https://qm.qq.com/q/lbtoWDPpZu', external: true },
                 { icon: 'ph:github-logo-duotone', text: 'Github', url: 'https://github.com/mugzx', external: true },
-                { icon: 'ph:telegram-logo-duotone', text: 'Telegram', url: 'https://t.me/mugzx', external: true },
             ],
         },
     ] satisfies Nav,
