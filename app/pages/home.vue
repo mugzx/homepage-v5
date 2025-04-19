@@ -40,7 +40,7 @@ const appConfig = useAppConfig()
               2~3月主页增设了一些功能站点，并且开始重筑项目，优化推送
             </p>
             <p>
-              2025 年 1 月我重建了<ZLink to="https://blog.mugzx.top">博客</ZLink>，目前还在不断修改中...
+              2025 年 1 月我重建了博客，目前还在不断修改中...
             </p>
         </ZField>
         <ZField label="一些声明">
