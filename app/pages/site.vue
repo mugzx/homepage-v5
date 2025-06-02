@@ -56,7 +56,7 @@ const orgSites: Array<CardProps> = [
         name: '火蝾螈服务器',
         nameAlt: 'Torch Server',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://blog.chengai77a6b.top/archives/4' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.chengai77a6b.top/2025/03/27/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%8B%E7%BB%8D' },
         ],
         desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。腐竹也已经更新了三代(bushi💦，感兴趣的可以加入哦，我们欢迎大家前来游玩',
     },
