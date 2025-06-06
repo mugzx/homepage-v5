@@ -4,7 +4,7 @@ import type { NitroConfig } from 'nitropack'
 
 const author = {
     name: 'Mugzx',
-    avatar: 'https://weavatar.com/avatar/b89a1ad5b1f97dbc13e32aa64c3112cdf518cf5d45d462a45edbad84d2cbd337?s=460',
+    avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&s=4',
     email: 'lunar@mugzx.top',
     homepage: 'https://www.mugzx.top',
 }
