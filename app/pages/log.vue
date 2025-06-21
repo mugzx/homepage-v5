@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ZhiluIcon, ZhiluIconOld } from '#components'
+// 此组件暂无实际用法，目前先阻止其执行
+// import { ZhiluIcon, ZhiluIconOld } from '#components'
 
-useHead({ title: '日志' })
+useHead({ title: '活动日志' })
 definePageMeta({ headerText: '互联网上的活动记录' })
 const timeline = {
     '2077-05-24': '未完待续...',

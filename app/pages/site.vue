@@ -1,53 +1,35 @@
 <script setup lang="ts">
 import type { CardProps } from '~/components/partial/Card.vue'
 
-useHead({ title: '站点' })
-definePageMeta({ headerText: '一些分享' })
+useHead({ title: '站点分享' })
+// definePageMeta({ headerText: '一些分享' })
 
 const toolSites: Array<CardProps> = [
-    {
-        name: 'DeepSeek',
-        nameAlt: 'deepseek',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.deepseek.com' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/deepseek-ai' },
-        ],
-        desc: '一款国产Ai，感觉蛮好用的，喜欢它的开源精神和手机可用的网页端',
-    },
-    {
-        name: 'Thunderbird',
-        nameAlt: 'Thunderbird',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.thunderbird.net/zh-CN' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/thunderbird' },
-        ],
-        desc: '在b站上看到的一款app，开源无广告，能一站式打理邮箱账号，颜值还高',
-    },
     {
         name: 'PiliPlus',
         nameAlt: 'PiliPlus',
         buttons: [
             { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
         ],
-        desc: '相比较原版臃肿不堪的b站更加简洁好看，功能也都还在不断的完善中...',
+        desc: '相比较原版臃肿不堪的b站更加简洁好看，功能趋近于完善。',
     },
     {
         name: 'Stratum',
         nameAlt: 'Authenticator Pro',
         buttons: [
-           { icon: 'ph:planet-duotone', text: '访问', to: 'https://stratumauth.com/' },
-           { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/stratumauth/app' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://stratumauth.com/' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/stratumauth/app' },
         ],
-        desc: '经历过木马病毒后找到的一款 2FA app，与前两者同样使用Material You设计语言',
+        desc: '经历过木马病毒后找到的一款 2FA app，与前两者同样使用Material You设计语言。',
     },
     {
         name: '中文网字计划',
         nameAlt: 'chinese-font',
         buttons: [
-           { icon: 'ph:planet-duotone', text: '访问', to: 'https://chinese-font.netlify.app/zh-cn' },
-           { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/KonghaYao/chinese-free-web-font-storage' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://chinese-font.netlify.app/zh-cn' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/KonghaYao/chinese-free-web-font-storage' },
         ],
-        desc: '免费的中文字体公益 CDN 服务，让中文字体在互联网世界起飞。来自枫落丰源的推荐~',
+        desc: '免费的中文字体公益 CDN 服务，让中文字体在互联网世界起飞。来自枫落丰源的推荐。',
     },
 ]
 
@@ -58,7 +40,7 @@ const orgSites: Array<CardProps> = [
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.chengai77a6b.top/2025/03/27/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%8B%E7%BB%8D' },
         ],
-        desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。腐竹也已经更新了三代(bushi💦，感兴趣的可以加入哦，我们欢迎大家前来游玩',
+        desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。腐竹也已经更新了三代(bushi💦，感兴趣的可以加入哦，我们欢迎大家前来游玩。',
     },
     {
         name: '邮立方',

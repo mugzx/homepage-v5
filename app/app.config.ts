@@ -16,13 +16,12 @@ export default defineAppConfig({
         {
             title: '',
             items: [
-                { icon: 'ph:house-duotone', text: '主页', url: '/' },
-                { icon: 'ph:pen-nib-duotone', text: '文章', url: '/article' },
+                { icon: 'ph:house-duotone', text: '个人介绍', url: '/' },
+                { icon: 'ph:pen-nib-duotone', text: '驻站笔记', url: '/article' },
                 // { icon: "ph:pen-nib-duotone", text: "文章", url: "https://blog.mugzx.top", external: true },
                 // { icon: "ph:code-duotone", text: "项目", url: "/project" },
-                { icon: 'ph:code-duotone', text: '项目', url: 'https://github.com/mugzx', external: true },
-                { icon: 'ph:globe-duotone', text: '站点', url: '/site' },
-                { icon: 'ph:files-duotone', text: '日志', url: '/log' },
+                { icon: 'ph:globe-duotone', text: '站点分享', url: '/site' },
+                { icon: 'ph:files-duotone', text: '活动日志', url: '/log' },
             ],
         },
         {

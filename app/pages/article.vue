@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: '文章' })
+useHead({ title: '驻站笔记' })
 definePageMeta({ headerText: '最近更新' })
 
 const { data, error, status } = useLazyFetch('/api/feed/blog')

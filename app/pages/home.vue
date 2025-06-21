@@ -37,15 +37,19 @@ const appConfig = useAppConfig()
         <ZField label="近期活动">
             <p>
                 <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-              2~3月主页增设了一些功能站点，并且开始重筑项目，优化推送
+                2~3月主页增设了一些功能站点，并且开始重筑项目，优化推送
             </p>
             <p>
-              2025 年 1 月我重建了博客，目前还在不断修改中...
+                2025 年 1 月我重建了博客，目前还在不断修改中...
             </p>
         </ZField>
         <ZField label="一些声明">
             <p>
-                <ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ph:github-logo-duotone">L33Z22L11/homepage-v5</ZLink> <ZLink to="https://icp.gov.moe/?keyword=20258800">萌ICP备20258800号</ZLink>
+                <ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ph:github-logo-duotone">
+                    L33Z22L11/homepage-v5
+                </ZLink> <ZLink to="https://icp.gov.moe/?keyword=20258800">
+                    萌ICP备20258800号
+                </ZLink>
             </p>
         </ZField>
     </div>
