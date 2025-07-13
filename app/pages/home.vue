@@ -53,7 +53,7 @@ const appConfig = useAppConfig()
                 </ZLink>
             </p>
             <p>
-                欢迎使用、参考样式：<br>
+                同款主页参考样式：<br>
                 <ZBadge
                     img="https://image.m-c.top/?/images/2024/07/21/iyt3mhQCDe/b_a3f6e95501bcc4ce64c19c63a1211bcd.png"
                     link="https://oio.mckfs.com/"
