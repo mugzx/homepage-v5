@@ -4,6 +4,7 @@
 
 useHead({ title: '活动日志' })
 definePageMeta({ headerText: '互联网上的活动记录' })
+
 const timeline = {
     '2077-05-24': '未完待续...',
     '2025-05-24': '16岁生日快乐!',
@@ -18,7 +19,9 @@ const timeline = {
             <div class="timeline-item-date">
                 {{ date }}
             </div>
-            <p v-if="typeof content === 'string'" class="timeline-item-content" v-html="content" />
+            <p v-if="typeof content === 'string'" class="timeline-item-content">
+                {{ content }}
+            </p>
             <p v-else class="timeline-item-content">
                 <component :is="content" />
             </p>

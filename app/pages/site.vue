@@ -31,6 +31,7 @@ const toolSites: Array<CardProps> = [
         ],
         desc: '免费的中文字体公益 CDN 服务，让中文字体在互联网世界起飞。来自枫落丰源的推荐。',
     },
+
 ]
 
 const orgSites: Array<CardProps> = [
@@ -76,5 +77,4 @@ const orgSites: Array<CardProps> = [
     <ZCardList :data-list="orgSites" />
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
