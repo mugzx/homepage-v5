@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { CardProps } from '~/components/partial/Card.vue'
+import { ZLink } from '#components'
 
 useHead({ title: '分享推荐' })
 // definePageMeta({ headerText: '一些分享' })
@@ -43,13 +44,17 @@ const orgSites: Array<CardProps> = [
         ],
         desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。感兴趣的可以加入哦，我们欢迎大家前来游玩。',
     },
-/*  {
+    {
         name: '邮立方',
         nameAlt: 'Cube of Posts',
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://cop.cooo.site' },
         ],
-        desc: //'西安邮电大学校内的 Minecraft 兴趣交流团体，<ZLink to="https://www.mualliance.cn/">Minecraft 高校联盟(MUA)</ZLink>成员，于2023年10月6日对外开放。官网于2024年1月1日建立，并于2024年2月10日升级为博客。',
+        desc: () => h('div', [
+            '西安邮电大学校内的Minecraft兴趣交流团体，',
+            h(ZLink, { to: 'https://www.mualliance.cn/' }, 'Minecraft高校联盟(MUA)'),
+            '成员，于2023年10月6日对外开放。官网于2024年1月1日建立，并于2024年2月10日升级为博客。',
+        ]),
     },
     {
         name: '方块茶话会',
@@ -57,8 +62,12 @@ const orgSites: Array<CardProps> = [
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://btr.thisis.host/' },
         ],
-        desc: '宝鸡中学校内的 Minecraft 爱好群体，由 <ZLink icon="ph:github-logo-duotone" to="https://github.com/guuguai/">古古怪怪GuuGuai </ZLink> 于2020年7月17日建立。帮助文档网站于2022年6月12日建立，并于2024年2月21日迁移。',
-    },*/
+        desc: () => h('div', [
+            '宝鸡中学校内的Minecraft爱好群体，由',
+            h(ZLink, { icon: 'ph:github-logo-duotone', to: 'https://github.com/guuguai/' }, '古古怪怪GuuGuai'),
+            '于2020年7月17日建立。帮助文档网站于2022年6月12日建立，并于2024年2月21日迁移。',
+        ]),
+    },
     {
         name: '相侵相碍异家人',
         nameAlt: 'Alien Family Hub',

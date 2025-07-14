@@ -1,4 +1,5 @@
 import type { Nav } from '~/types/nav'
+import { h } from 'vue'
 import homepageConfig from '~~/homepage.config'
 
 // 图标查询：https://yesicon.app/ph
@@ -9,7 +10,7 @@ export default defineAppConfig({
 
     footer: {
         copyright: `© ${new Date().getFullYear()} Mugzx`,
-        message: 'aka Mugzx🌏',
+        message: h('a', { href: 'https://icp.gov.moe/?keyword=20258800', target: '_blank', rel: 'noopener nofollow' }, '萌ICP备20258800号'),
     },
 
     nav: [
