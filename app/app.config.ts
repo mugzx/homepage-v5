@@ -10,7 +10,7 @@ export default defineAppConfig({
 
     footer: {
         copyright: `© ${new Date().getFullYear()} Mugzx`,
-        message: h('a', { href: 'https://icp.gov.moe/?keyword=20258800', target: '_blank', rel: 'noopener nofollow' }, '萌ICP备20258800号'),
+        message: '',
     },
 
     nav: [
