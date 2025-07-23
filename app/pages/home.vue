@@ -23,13 +23,13 @@ const appConfig = useAppConfig()
             <div>
                 <ZButton
                     icon="ph:files-duotone"
-                    to="https://blog.zhilu.cyou/"
+                    to="https://blog.mugzx.top/"
                     text="博客"
                     primary
                 />
                 <ZButton
                     icon="ph:github-logo-duotone"
-                    to="https://github.com/L33Z22L11"
+                    to="https://github.com/mugzx"
                     text="GitHub"
                 />
             </div>
@@ -46,10 +46,7 @@ const appConfig = useAppConfig()
         </ZField>
         <ZField label="关于主页">
             <p>
-                感谢由 <ZBadge link="https://github.com/L33Z22L11">
-                    纸鹿大佬
-                </ZBadge>
-                开源的
+                感谢大佬们开源的
                 <ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ph:github-logo-duotone">L33Z22L11/homepage-v5</ZLink>
                 个人主页。
             </p>

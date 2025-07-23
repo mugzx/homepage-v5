@@ -55,6 +55,11 @@ const orgSites: Array<CardProps> = [
             h(ZLink, { to: 'https://www.mualliance.cn/' }, 'Minecraft高校联盟(MUA)'),
             '成员，于2023年10月6日对外开放。官网于2024年1月1日建立，并于2024年2月10日升级为博客。',
         ]),
+        desc: () => h('div', [
+            '西安邮电大学校内的Minecraft兴趣交流团体，',
+            h(ZLink, { to: 'https://www.mualliance.cn/' }, 'Minecraft高校联盟(MUA)'),
+            '成员，于2023年10月6日对外开放。官网于2024年1月1日建立，并于2024年2月10日升级为博客。',
+        ]),
     },
     {
         name: '方块茶话会',
@@ -62,6 +67,11 @@ const orgSites: Array<CardProps> = [
         buttons: [
             { icon: 'ph:planet-duotone', text: '访问', to: 'https://btr.thisis.host/' },
         ],
+        desc: () => h('div', [
+            '宝鸡中学校内的Minecraft爱好群体，由',
+            h(ZLink, { icon: 'ph:github-logo-duotone', to: 'https://github.com/guuguai/' }, '古古怪怪GuuGuai'),
+            '于2020年7月17日建立。帮助文档网站于2022年6月12日建立，并于2024年2月21日迁移。',
+        ]),
         desc: () => h('div', [
             '宝鸡中学校内的Minecraft爱好群体，由',
             h(ZLink, { icon: 'ph:github-logo-duotone', to: 'https://github.com/guuguai/' }, '古古怪怪GuuGuai'),
