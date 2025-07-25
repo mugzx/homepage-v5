@@ -4,15 +4,15 @@ import type { NitroConfig } from 'nitropack'
 
 const author = {
     name: 'Mugzx',
-    avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&s=5',
-    email: 'lunar@mugzx.top',
+    avatar: 'https://wsrv.nl/?url=github.com/mugzx.png',
+    email: 'me@mugzx.top',
     homepage: 'https://www.mugzx.top',
 }
 
 const homepageConfig = {
     title: 'Mugzx🌏 (@Mugzx)',
     subtitle: '向上革命，向下实践。',
-    description: 'Mugzx 是一名坚定的马克思列宁主义者,这是他的个人主页。该个人主页简洁美观,为读者提供了卓越的阅读体验。',
+    description: 'Mugzx 是一名坚定的马克思列宁主义者，这是他的个人主页。该个人主页简洁美观，为读者提供了卓越的阅读体验。',
     author,
     language: 'zh-CN',
     timezone: 'Asia/Shanghai',

@@ -1,5 +1,5 @@
 import type { Nav } from '~/types/nav'
-import { h } from 'vue'
+// import { h } from 'vue'
 import homepageConfig from '~~/homepage.config'
 
 // 图标查询：https://yesicon.app/ph
