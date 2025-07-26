@@ -63,12 +63,12 @@ const appConfig = useAppConfig()
                     text="Oiolosse MC服"
                 />
                 <ZBadge
-                    img="https://bu.dusays.com/2024/07/13/66929d307adb9.png" 
+                    img="https://bu.dusays.com/2024/07/13/66929d307adb9.png"
                     link="https://henrywhu.cn"
                     text="Henry Moreau"
                 />
                 <ZBadge
-                    img="https://api-space.tnxg.top/avatar?s=qq"
+                    img="https://q1.qlogo.cn/g?b=qq&nk=2271225249&s=2"
                     link="https://tnxg.top"
                     text="天翔TNXG"
                 />
@@ -82,7 +82,7 @@ const appConfig = useAppConfig()
                     link="https://www.xxfer.cn"
                     text="小李同学"
                 />
-                <ZBadge 
+                <ZBadge
                     img="https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=2"
                     link="https://www.xlenco.top"
                     text="Xlenco"
@@ -93,15 +93,15 @@ const appConfig = useAppConfig()
                     text="Mugzx"
                 />
                 <ZBadge
-                    img="https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256"
+                    img="https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=64"
                     link="https://www.kemiao.online"
                     text="克喵爱吃卤面"
                 />
                 <ZBadge
-                    img="https://cd.ahhf45.top/img/IMG_0555.jpeg"
+                    img="https://q1.qlogo.cn/g?b=qq&nk=3310149631&s=2"
                     link="https://ahhf45.top"
                     text="GreenRoc"
-                />
+                /><!-- 防盗链,301重定向 -->
             </p>
         </ZField>
     </div>
