@@ -2,7 +2,7 @@
 import type { CardProps } from '~/components/partial/Card.vue'
 import { ZLink } from '#components'
 
-useHead({ title: '分享推荐' })
+useHead({ title: '站点' })
 definePageMeta({ headerText: '一些分享' })
 
 const toolSites: Array<CardProps> = [
